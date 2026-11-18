@@ -6,7 +6,9 @@ import MobileNav from "./MobileNav";
 
 export default function AppLayout() {
   const { pathname } = useLocation();
-  useEffect(() => window.scrollTo({ top: 0 }), [pathname]);
+  useEffect(() => {
+    window.scrollTo({ top: 0 });
+  }, [pathname]);
 
   return (
     <div className="bg-blush flex min-h-dvh">
