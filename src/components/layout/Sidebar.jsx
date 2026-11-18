@@ -42,9 +42,9 @@ export default function Sidebar() {
 
       <div className="mt-auto rounded-2xl bg-gradient-to-br from-pink-100 to-violet-100 p-4 dark:from-pink-500/10 dark:to-violet-500/10">
         <ShieldCheck className="h-5 w-5 text-primary" />
-        <p className="mt-2 text-sm font-bold">Private by design</p>
+        <p className="mt-2 text-sm font-bold">Made with ❤️ by Kashish Bhati</p>
         <p className="mt-0.5 text-xs text-muted-foreground">
-          Everything is saved in this browser only. No accounts, no servers.
+          Everything is saved and secure, your data is private and encrypted.
         </p>
       </div>
     </aside>
